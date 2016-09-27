@@ -1,16 +1,10 @@
 {
-    "globals": {
+    "meta": {
         "title": "Style guide",
         "description": "A place to document a sites typography, breakpoints and base themes.",
-        "name": "Style guide",
-        "config": {
-            "assets": {
-                "folder_css"    : "static_src/sass",
-                "folder_js"     : "static_src/js",
-                "folder_vendor" : "static_src/vendor",
-                "folder_images" : "static_src/images"
-            }
-        },
+        "name": "Style guide"
+    },
+    "data": {
         "styleguide" : {
             "typography" : {
                 "slug":"typography",
@@ -20,19 +14,19 @@
                     "name" : "HelveticaNeue",
                     "description" : "This is body copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ex velit. Sed placerat nisi et risus faucibus, ac mollis turpis varius. Maecenas nec sapien eu odio porta aliquam id ac risus. "
                 },
-                "styles": [ 
-                    "normal", 
-                    "bold", 
-                    "light", 
+                "styles": [
+                    "normal",
+                    "bold",
+                    "light",
                     "italic",
                     "bold-italic",
-                    "light-italic" 
-                ]     
+                    "light-italic"
+                ]
             },
             "grid" : {
                 "slug":"grid",
                 "title" : "Grid breakpoints",
-                "blurb" : "Here are the grid breakpoints that are used on the site. These are variablized in _tools.breakpoints.scss.", 
+                "blurb" : "Here are the grid breakpoints that are used on the site. These are variablized in _tools.breakpoints.scss.",
                 "breakpoints" : [
                     {
                         "name" : "x-small",
@@ -55,18 +49,18 @@
                         "px" : "&gt; 1281px"
                     }
                 ]
-            }, 
+            },
             "themes":{
                 "slug":"themes",
                 "title":"Themes",
                 "blurb":"Here are the different theme classes that are used on the site. These are variablized in _theming.scss.",
-                "classes": [ 
-                    "t-soft", 
-                    "t-dark", 
+                "classes": [
+                    "t-soft",
+                    "t-dark",
                     "t-light",
                     "t-plain"
 
-                ] 
+                ]
             }
         }
     }
